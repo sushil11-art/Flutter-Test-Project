@@ -3,7 +3,6 @@ import 'package:getx_app/controllers/item_controller.dart';
 import 'package:flutter/material.dart';
 
 class WishListScreen extends StatelessWidget {
-s
   final Products productController = Get.put(Products());
 
   WishListScreen({Key? key}) : super(key: key);
@@ -12,7 +11,7 @@ s
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('WishList'),
+          title: const Text('WishList'),j
         ),
         body: Obx(
           () => ListView.builder(
